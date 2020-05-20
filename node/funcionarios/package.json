@@ -1,0 +1,18 @@
+{
+    "name": "funcionarios",
+    "version": "1.0.0",
+    "main": "funcionarios.js",
+    "scripts": {
+        "start": "nodemon",
+        "dev": "nodemon",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "felipe bianchi",
+    "license": "ISC",
+    "keywords": [],
+    "dependencies": {
+        "axios": "^0.19.2"
+    },
+    "devDependencies": {},
+    "description": ""
+}

@@ -2,7 +2,9 @@
 function compras(trabalho1, trabalho2) {
     const comprarSorvet = trabalho1 || trabalho2 // operador lógico " ou "
     const comprarTv50 = trabalho1 && trabalho2 // oedrador lógico " e "
+
         //const comprarTv32 = !!(trabalho1 ^ trabalho2)// bitwise xor = ou exclusivo.
+        
     const comprarTv32 = trabalho1 != trabalho2 // outro tipo de operador " ou exclusivo"
     const manterSaudadvel = !comprarSorvet // operador unitário " "negação lógica.
 

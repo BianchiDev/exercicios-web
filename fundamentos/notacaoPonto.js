@@ -19,3 +19,5 @@ const obj3 = new obj('Mesa')
 console.log(obj2.nome)
 console.log(obj3.nome)
 obj3.exec()
+/* Notação ponto is form with whats i acess the attribute the Object or Function*/
+ 

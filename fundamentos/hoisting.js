@@ -5,4 +5,4 @@ console.log('a =', a)
 console.log('a =', b)
 let b = 2
 console.log('a =', b)
-    // definido com "let" não ocorre o hoisting e gera um erro.
+    // definido com "let" não ocorre o hoisting e gera um erro.  

@@ -7,4 +7,5 @@ for (var i = 0; i < 10; i++) {
 }
 funcs[2]()
 funcs[8]()
-    //funcs e var vão sempre chamar o numero fora da função pq eles não têm escopo de bloco e não respeitam a variável//
+    // funcs e var vão sempre chamar o numero fora da função pq eles não têm escopo de bloco e
+    // não respeitam a variável

@@ -13,3 +13,7 @@ const pessoa = {
 for (let atributo in pessoa) {
     console.log(`${atributo} = ${pessoa[atributo]}`)
 }
+/* 
+ * Versão antiga
+ * usar os métodos novos do ES6
+ */

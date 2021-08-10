@@ -9,8 +9,8 @@ function compras(trabalho1, trabalho2) {
     const manterSaudadvel = !comprarSorvet // operador unitário " "negação lógica.
 
     return { comprarSorvet, comprarTv50, comprarTv32, manterSaudadvel }
-}
 
+}
 console.log(compras(true, true))
 console.log(compras(true, false))
 console.log(compras(false, true))

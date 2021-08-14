@@ -1,0 +1,23 @@
+{
+  "name": "exercicios-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BianchiDev/exercicios-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BianchiDev/exercicios-web/issues"
+  },
+  "homepage": "https://github.com/BianchiDev/exercicios-web#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}

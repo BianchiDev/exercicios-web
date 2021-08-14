@@ -1,5 +1,5 @@
 console.log(typeof Object)
-console.log(typeof new Object)
+console.log(typeof new Object) // Instanciando uma função 
 
 const Cliente = function() {}
 console.log(typeof Cliente)

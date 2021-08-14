@@ -1,6 +1,6 @@
 // estrutura de controle "switch e break"
 const imprirResultado = function(nota) {
-    switch (Math.floor(nota)) { // switch é para multiplas seleções.
+    switch (Math.floor(nota)) { // "switch" é para multiplas seleções. ".floor" aredopnda o valor para baixo
         case 10:
         case 9:
             console.log('Quadro de Honra')

@@ -12,3 +12,6 @@ const sub = function(x, y) {
 const mult = function mult(x, y) {
     return x * y
 }
+
+console.log(soma(3, 4))
+console.log(sub(3, 4))

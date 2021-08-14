@@ -10,5 +10,5 @@ fabricante.forEach(function(fabricante) {
         console.log(fabricante)
     })
     /* 
-     *  A FUnção Kallback é uma função  que será chamada quando um evento acontecer
+     *  A FUnção Kallback é uma função  que será chamada quando um evento acontecer  EVENTO = LUNP 
      */

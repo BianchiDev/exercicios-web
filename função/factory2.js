@@ -1,14 +1,9 @@
-// Factory desafio
-function criarProduto(nome, preco, quantidade) {
+// fuction factory é uma função que fagrica um novo objeto.
+//Factory simples        Factory = Fabrica.
+function criarPessoa() {
     return {
-        nome,
-        preco,
-        desconto: 0.1,
-        quantidade
-
+        nome: 'Ana',
+        sobrenome: 'Silva'
     }
-
 }
-
-console.log(criarProduto('Notebook', 2199.49, 1))
-console.log(criarProduto('iPad', 1199.59, 4))
+console.log(criarPessoa())

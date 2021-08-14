@@ -1,9 +1,30 @@
-// fuction factory é uma função que fagrica um novo objeto.
-//Factory simples        Factory = Fabrica.
-function criarPessoa() {
+// Factory desafio
+/*
+ *    const prod1 ={
+ *      nome: '...',
+ *
+ *      preco: '...' 
+ *  }
+ *
+ *  const prod2 = {
+ *       nome: '...',
+ *
+ *      preco: '...' 
+ *   }
+ */
+
+// Factory veio para resolver esse tipo de problema
+
+function criarProduto(nome, preco, quantidade) {
     return {
-        nome: 'Ana',
-        sobrenome: 'Silva'
+        nome,
+        preco,
+        desconto: 0.1,
+        quantidade
+
     }
+
 }
-console.log(criarPessoa())
+
+console.log(criarProduto('Notebook', 2199.49, 1))
+console.log(criarProduto('iPad', 1199.59, 4))

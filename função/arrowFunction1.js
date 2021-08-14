@@ -10,10 +10,11 @@ dobro = (a) => {
 dobro = a => 2 * a // return implícito
 console.log(dobro(Math.PI))
 
+//------------------------OUTRO EXEMPLO ----------------------------///
 let ola = function() {
     return ' Ola '
 }
 
-ola = () => 'Ola'
-ola = _ => 'Ola' // possui parâmetros "_".
+ola = () => 'Ola' // possui parâmentro vazio "( )"
+ola = _ => 'Ola' // possui parâmetro "_".
 console.log(ola())

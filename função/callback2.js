@@ -4,13 +4,13 @@ const notas = [7.7, 6.5, 5.2, 8.9, 3.6, 7.1, 9.0]
 const notasBaixas1 = []
 for (let i in notas) {
     if (notas[i] < 7) {
-        notasBaixas1.push(notas[i])
+        notasBaixas1.push(notas[i]) // A função .push adiciona um elemento ao Array
     }
 }
 console.log(notasBaixas1)
 
 // Com callback
-const notasBaixas2 = notas.filter(function(nota) {
+const notasBaixas2 = notas.filter(function(nota) { // afunção .filter é uma função que vai filtrar determinado elemento em cima de um determinado critério.
     return nota < 7
 })
 console.log(notasBaixas2)

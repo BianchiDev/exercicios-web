@@ -2,7 +2,7 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
     //atributo privado
     let velocidadeAtual = 0
 
-    // metodo publico
+    // metodo publico  apartir da palavra reservada "This"
     this.acelerar = function() {
         if (velocidadeAtual + delta <= velocidadeMaxima) {
             velocidadeAtual += delta
@@ -11,7 +11,7 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
         }
     }
 
-    //metodo publico
+    //metodo publico dentro da  função carro
     this.getvelocidadeAtual = function() {
         return velocidadeAtual
     }
@@ -27,4 +27,5 @@ ferrari.acelerar()
 ferrari.acelerar()
 console.log(ferrari.getvelocidadeAtual())
 
-console.log(typeof Carro) // typeof mostra o que é! nesse caso uma function
+console.log(typeof Carro) // typeof mostra o que "Carro" é nesse caso uma function 
+console.log(typeof ferrari) // typeof mostra o que "ferrari" é nesse caso uma obejto

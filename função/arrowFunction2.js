@@ -1,7 +1,7 @@
 function Pessoa() {
     this.idade = 0
 
-    setInterval(() => { // Arrow function é uma função anônima e não varia.
+    setInterval(() => { // Na função (Arrow function) o (This) não varia.
         this.idade++
             console.log(this.idade)
     }, 1000)

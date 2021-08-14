@@ -11,10 +11,10 @@ comparaComThis = comparaComThis.bind(obj)
 comparaComThis(global)
 comparaComThis(obj)
 
-let comparaComThisArrow = param => console.log(this === param)
+let comparaComThisArrow = param => console.log(this === param) // O this compara com o módula da função (Arrow function) e não com o objeto globa.
 comparaComThisArrow(global)
 comparaComThisArrow(module.exports)
 
-comparaComThisArrow = comparaComThisArrow.bind(obj)
+comparaComThisArrow = comparaComThisArrow.bind(obj) // A função usou o .bind para força o Arrow function a receber p escopo global
 comparaComThisArrow(obj)
 comparaComThisArrow(module.exports)

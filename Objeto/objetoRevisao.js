@@ -36,3 +36,11 @@ const carro = { // atributo pai
 carro.propietario.endereco.numero = 1000
 carro['propietario']['endereco']['logradouro'] = 'Av Gigante'
 console.log(carro)
+
+//delete carro.condutores
+delete carro.propietario.endereco
+delete carro.caulularValorSeguro
+
+console.log(carro)
+console.log(carro.condutores)
+console.log(carro.condutores.length) // ".lengh" diz o tamanho do Array

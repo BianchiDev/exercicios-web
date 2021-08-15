@@ -1,9 +1,9 @@
-//pessoa -> 123 {...}
+//pessoa -> 123 {...}ENDEREÇO DE MEMÓRIA
 const pessoa = { nome: 'João' }
 pessoa.nome = 'Pedro'
 console.log(pessoa)
 
-// pessoa -> 456 ->{...}
+// pessoa -> 456 ->{...} OUTRO ENDEREÇODE MEMÓRIA
 //pessoa = {nome: 'Ana'} gera erro porque vc não pode atribuir para pessoa
 Object.freeze(pessoa) // "freeze" esta congelando pessoa.
     // "freeze" congelou o nome Pedro e vai iguinorar toda tentativa.

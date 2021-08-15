@@ -1,3 +1,5 @@
+/*---------------------ESTUDANDO ENCAPISULAMENTO----------------------------*/
+
 //usando a notação Literal
 const obj1 = {}
 console.log(obj1)

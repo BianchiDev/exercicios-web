@@ -12,12 +12,12 @@
  const obj3 = {}
  obj3[nomeAttr] = valorAttr
  console.log(obj3)
+
  const obj4 = {
-     [nomeAttr]: valorAttr
- }
+     [nomeAttr]: valorAttr }
  console.log(obj4)
 
- const obj5 = {
+ const obj5 = { // FUNCTION EXPRESS
      funcao1: function() {
          //...
      },

@@ -1,7 +1,8 @@
 const pessoa = { // Object foi criado com anotação literal.
     nome: 'Rebeca',
     idade: 2,
-    peso: 13
+    peso: 13,
+    SEXO: 'feminino'
 }
 
 console.log(Object.keys(pessoa)) // Keys tradução" chave". Capitura todas as chaves do Object literal.
@@ -13,7 +14,7 @@ Object.entries(pessoa).forEach(e => {
 })
 
 Object.entries(pessoa).forEach(([chave, valor]) => { // forEach vai percorrer os eleméntos do array criado em object.
-    console.log(`{chave}: ${valor}`)
+    console.log(`${chave}: ${valor}`)
 })
 
 

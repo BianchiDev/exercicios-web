@@ -17,8 +17,8 @@ console.log(produto.getPreco())
 
 const carro = { preco: 49990, desc: 0.20 }
 
-console.log(getPreco.call(carro))
-console.log(getPreco.apply(carro))
+console.log(getPreco.call(carro)) // Chamando a função com ".call"
+console.log(getPreco.apply(carro)) // Chamando a função com ".apply" 
     // diferença entre ele: call chama sem o array e apply o array é obrigado.
-console.log(getPreco.call(carro, 0.17, '$'))
-console.log(getPreco.apply(carro, [0.17, '$']))
+console.log(getPreco.call(carro, 0.17, '$')) // Chamando a função com ".call"
+console.log(getPreco.apply(carro, [0.17, '$'])) // Chamando a função com ".apply"

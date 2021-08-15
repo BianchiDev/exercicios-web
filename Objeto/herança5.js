@@ -1,4 +1,4 @@
-console.log(typeof String) // fuction
+console.log(typeof String) // "typeof" é uma finção que mostra o que esta ao lado é (ex: String é uma  fuction)
 console.log(typeof Array) // function
 console.log(typeof Object) //function
     // são função e todos tem o atributo prototype

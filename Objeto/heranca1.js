@@ -8,7 +8,7 @@ const volvo = {
     velMax: 200
 }
 
-console.log(ferrari.__proto__) // consegui acessar o object pai -> "SuperObject" protótipo primário.
+console.log(ferrari.__proto__) //ANDERLINE, ANDERLINE "_ _" consegui acessar o object pai -> "SuperObject" protótipo primário.
 console.log(ferrari.__proto__ === Object.prototype) // o Object pai.
 console.log(volvo.__proto__ === Object.prototype)
 console.log(Object.prototype.__proto__ === null)

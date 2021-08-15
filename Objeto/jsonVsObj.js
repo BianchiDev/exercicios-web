@@ -5,3 +5,6 @@
     //console.log(JSON.parse("{'a':1, 'b':2, 'c':3}")) false
     console.log(JSON.parse('{"a":1, "b":2, "c":3}')) // true
     console.log(JSON.parse('{"a":1.7, "b": "string", "c":true, "d": {}, "e":[]}')) // true
+
+
+    //Json é método mais usado na internet para interoperabilidade.

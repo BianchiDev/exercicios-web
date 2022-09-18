@@ -1,0 +1,6 @@
+@import "~bootstrap/scss/bootstrap";//procurar dentro do node
+
+$fa-font-path: "~font-awesome/fonts";// sobres creve o nome da variável do fonts awesome
+@import "~font-awesome/scss/font-awesome";// diz onde o fontd awsome esta
+
+@import "custom";// stilos para a aplicação

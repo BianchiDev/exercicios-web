@@ -1,5 +1,5 @@
 //ES8: Object.values/Pbjsct.entries
-const obj = { a: 1, B: 2, c: 3 }
+const obj = { a: 1, b: 2, c: 3 }
 console.log(Object.values(obj)) // valores dos atributos dos meus objetos
 console.log(Object.entries(obj)) // matriz ou sejá, um array de array
 
@@ -13,7 +13,7 @@ const pessoa = {
 }
 console.log(pessoa.nome, pessoa.ola())
 
-//Class
+// Class
 class Animal {}
 class Cachorro extends Animal {
     falar() {

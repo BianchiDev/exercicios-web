@@ -1,4 +1,5 @@
 package.json
 package-lock.json
 node_modeles\lodash
-node_modeles
+node_modules
+.DS_Store

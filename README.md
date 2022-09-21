@@ -1,4 +1,4 @@
-# Aprendendo JS, HTML & CSS
+# Curso Web Moderno
 
 ## O que eu estudei no curso
 
@@ -33,6 +33,6 @@ Curso Web Moderno Completo com JavaScript 2022 + Projetos
  Tam esta cheio de comentarios para que sirva como material de consulta 
  <hr>
 
- 
+
 
 

@@ -32,6 +32,10 @@ Curso Web Moderno Completo com JavaScript 2022 + Projetos
  Cada branch representa um módulo, e a sequência de branchs segue a lógica do curso. <br>
  Também esta cheio de comentários para que sirva como material de consulta 
  <hr>
+ <br>
+
+ <p align ="center"><img src="./assets/cod3r.png" width="100%" height="100%"> </p>
+<br><hr>
 
 
 

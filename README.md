@@ -34,7 +34,7 @@ Curso Web Moderno Completo com JavaScript 2022 + Projetos
  <hr>
  <br>
 
- <p align ="center"><img src="./assets/cod3r.png" width="100%" height="100%"> </p>
+ <p align ="center"><img src="./assets/cod3r.png" width="75%" height="75%"> </p>
 <br><hr>
 
 
